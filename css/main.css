@@ -215,7 +215,6 @@ h2 {
 }
 
 figure {
-  vertical-align: middle;
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -262,6 +261,23 @@ footer {
     width: 50%;
   }
 
+  .card {
+    width: 25%;
+  }
+
+  .card-big {
+    width: 150%;
+  }
+
+  .link-card-text {
+    top: 50%;
+    width: 95%;
+  }
+
+  .link-card-big-text {
+    top: 80%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -274,6 +290,45 @@ footer {
   .nav li {
     width: 25%;
   }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    display: block;
+  }
+
+  .card-big {
+    width: 50%;
+    display: block;
+    height: 250px;
+  }
+
+  .card-3,
+  .card-4 {
+    order: 100;
+  }
+
+  .link-card-text {
+    top: 70%;
+  }
+
+  .link-card-big-text {
+    top: 170%;
+  }
+
+  figure {
+    margin: 0;
+    display: inline-block;
+  }
+
+  .discover-content {
+    max-width: 40%;
+    margin-bottom: 20em;
+  }
+
 
 }
 
