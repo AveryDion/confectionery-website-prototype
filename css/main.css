@@ -247,6 +247,21 @@ footer {
     line-height: 1.4;
   }
 
+  .nav-open {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    width: 100%;
+  }
+
+  .nav li {
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -254,6 +269,10 @@ footer {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .nav li {
+    width: 25%;
   }
 
 }
