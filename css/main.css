@@ -175,7 +175,7 @@ h2 {
   display: inline-block;
   width: 100%;
   position: absolute;
-  top: 80%;
+  top: 75%;
 }
 
 .link-card:hover .link-card-text {
@@ -263,10 +263,6 @@ footer {
     width: 25%;
   }
 
-  .card-big {
-    width: 150%;
-  }
-
   .link-card-text {
     top: 50%;
     width: 95%;
@@ -276,6 +272,13 @@ footer {
     top: 80%;
   }
 
+  .banner-button {
+    padding: .75em 1.5em;
+  }
+
+  .card-big {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -320,7 +323,15 @@ footer {
 
   .discover-content {
     max-width: 40%;
-    margin-bottom: 20em;
+    padding-bottom: 20em;
+  }
+
+  .banner-button {
+    padding: 1em 2em;
+  }
+
+  .discover-img {
+    padding: 1em;
   }
 
 }
